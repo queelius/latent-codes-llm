@@ -1,0 +1,61 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+*.alg
+*.loa
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+*.xdv
+*.latexml.log
+
+# LaTeX temporary files
+*.backup
+*~
+*.swp
+*.swo
+*-blx.bib
+
+# BibTeX
+*.bib.bak
+*.bib.sav
+
+# Build directories
+build/
+dist/
+*.dvi
+*.ps
+
+# OS files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python (if using scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+
+# Keep the PDF in git (it's the main output)
+!paper.pdf
