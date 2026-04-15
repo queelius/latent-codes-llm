@@ -1,0 +1,9 @@
+main: paper.tex
+watch:
+- '*.tex'
+- '**/*.tex'
+- '*.md'
+ignore:
+- '*_backup.tex'
+compiler: latexmk
+port: 8765

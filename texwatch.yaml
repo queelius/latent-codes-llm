@@ -1,0 +1,10 @@
+main: paper.tex
+watch:
+- '*.tex'
+- '*.md'
+- '*.txt'
+- '**/*.tex'
+ignore:
+- '*_backup.tex'
+compiler: auto
+port: 8765
